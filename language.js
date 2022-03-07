@@ -28,6 +28,7 @@ function changeLanguage(langSelected) {
 
     var lang = langSelected;
 
+    // Add a var for each language you want to support
     var langTxt = document.getElementsByClassName('lang');
     var enTxt = document.getElementsByClassName('en');
     var frTxt = document.getElementsByClassName('fr');
@@ -36,6 +37,7 @@ function changeLanguage(langSelected) {
         langTxt[i].style.display = 'none';
     }
 
+    // Add the new languages to the fail-safe to make sure all variants will be shown correctly
     if (lang.includes('en')) {
         lang = 'en';
     }
@@ -43,6 +45,7 @@ function changeLanguage(langSelected) {
         lang = 'fr';
     }
 
+    // Add the new languages to switch the shown texts
     switch (lang) {
         case 'fr':
             for (var i = 0; i < frTxt.length; i++) {
