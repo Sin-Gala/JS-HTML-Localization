@@ -6,7 +6,7 @@ This simple js script allows you to automatically get the language from the user
 The user can easily switch between languages and the chosen one is saved in their navigator local storage.
 
 ## How to install
-- Add the language.js file in your website script folder
+- Add the language.js file in your website folder
   - In the "changeLanguage" function:
     - Add a var for each language you want to support
 	- Add the new languages to the fail-safe to make sure all variants will be shown correctly
