@@ -1,5 +1,8 @@
 # JS-HTML-Change-website-language
 
+## Test page 
+You can test the code here: https://theanaproductions.github.io/JS-HTML-Change-website-language/
+
 ## SUMMARY
 
 This simple js script allows you to automatically get the language from the user navigator and update your website texts accordingly (as long as you support the language).
