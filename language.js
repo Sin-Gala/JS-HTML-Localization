@@ -23,9 +23,6 @@ function loadLanguagePref() {
 }
 
 function changeLanguage(langSelected) {
-
-    console.log(langSelected);
-
     var lang = langSelected;
 
     // Add a var for each language you want to support
@@ -51,18 +48,16 @@ function changeLanguage(langSelected) {
             for (var i = 0; i < frTxt.length; i++) {
                 frTxt[i].style.display = 'block';
             }
-
-            document.getElementById('lang-switch').value = 'fr';
             break;
         case 'en':
         default:
             for (var i = 0; i < enTxt.length; i++) {
                 enTxt[i].style.display = 'block';
             }
-            document.getElementById('lang-switch').value = 'en';
             break;
     }
 
+    document.getElementById('lang-switch').value = lang;
     document.documentElement.lang = lang;
 
     saveLanguagePref(lang);
