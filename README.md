@@ -1,7 +1,7 @@
 # JS-HTML-Change-website-language
 
 ## Test page 
-You can test the code here: https://theanaproductions.github.io/JS-HTML-Change-website-language/
+You can test the code here: https://sin-gala.github.io/JS-HTML-Localization/
 
 ## SUMMARY
 
